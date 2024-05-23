@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Play</title>
+    <link rel="icon" href="images/logo-no-background.gif"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="ellipsis">
+        <i class="fa-solid fa-ellipsis"></i>
+      </div>
+      <!-- header -->
+      <header>
+        <a href="homePage.html" class="logo__link"><img src="images/logo.webp" alt="logo" class="header__logo" /></a>
+        <nav>
+          <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="homePage.html#about">About</a></li>
+            <li><a href="content.html">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="register.html">Join</a></li>
+          </ul>
+        </nav>
+        <div id="menu__icon">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <nav id='menu__nav'>
+        <ul>
+          <li><a href="homePage.html">Home</a></li>
+          <li><a href="homePage.html#about">About</a></li>
+          <li class="active"><a href="content.html">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Join</a></li>
+        </ul>
+      </nav>
+      <section class="course__content">
+        <aside class="aside">
+          <div class="courses">
+            <h2>Courses</h2>
+          </div>
+          <div class="course__link">
+            <a href="topic01.html">Understanding Your Cat</a>
+            <a href="topic02.html" class="active" >Feline-Play</a>
+            <a href="topic03.html">Cat Provisions</a>
+            <a href="topic04.html">Cat-Proofed Home</a>
+            <a href="topic05.html">Cat Health</a>
+          </div>
+        </aside>
+        <div class="content">
+          <h1>Feline-Play</h1>
+          <div class="content__topics">
+            <button type="button" class='topic active' id="topic01Btn">Playing</button>
+            <button type="button" class='topic' id="topic02Btn">Toys</button>
+            <button type="button" class='topic hidden' id="topic03Btn">...</button>
+          </div>
+
+          <div class="content__wrapper" id="topic-1">
+            <article class="transcript">
+              <h2>Playing with your Cat</h2>
+              <p class="topic__intro">
+                There are a few ways you can play with a cat, here is a video to give you a visual representation of how interactive playing with your cat can be.
+              </p>
+              <div class="course__video">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/Ae43n6eeIV0" title="The Perfect Way to Play With Your Cat?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </article>
+            <article class="transcript">
+              <h2>How to play to play with a cat</h2><br>
+              <p>
+                Engaging in cat play can be an enjoyable and fulfilling experience for both you and your feline companion.
+              </p><br>
+              <p>
+                <strong>Choose the Right Toys:</strong> Cats have unique toy preferences. Some like pursuing balls, while others prefer toys that resemble prey, such as feather wands or string toys. Experiment to find what your cat like most.
+              </p><br>
+              <p>
+                <strong>Ensure a safe and hazard-free environment for play:</strong> Remove any little things that your cat may ingest, and make sure there are no sharp edges or locations where he could become caught.
+              </p><br>
+              <p>
+                <strong>Use interactive toys:</strong> use toys such as laser pointers or feather wands, to stimulate your cat's natural hunting and pounce behavior. These toys allow you to simulate prey while keeping your cat active and engaged.
+              </p><br>
+              <p>
+                <strong>Introducing them to toys:</strong> If your cat is new to fun, begin carefully and gently introducing them to toys. Allow them to sniff and inspect before starting play.
+              </p><br>
+              <p>
+                <strong>Use toys to stimulate your cat's movement and activity:</strong> Throw a ball for them to pursue, or dangle a feather wand for them to jump on.
+              </p><br>
+              <p>
+                <strong>Use positive reinforcement:</strong> you can achieve this by rewarding your cat with goodies or praise during play. This will assist to encourage positive behaviors and make play more pleasurable for them.
+              </p><br>
+              <p>
+                <strong>Observe your cat's energy levels and body language:</strong> this would help you to determine when to stop. If they appear tired or indifferent, it's time to quit playing and let them rest.
+              </p><br>
+              <p>
+                <strong>Rotate toys on a regular basis:</strong> you have to do this to keep your cat interested. This will reduce boredom and make playing more enjoyable.
+              </p><br>
+              <p>
+                <strong>Be patient:</strong> Each cat is unique, so it may take time to determine their favourite toys and activities. Be patient and keep exploring until you discover what works best for your pet.
+              </p><br>
+              <p>
+                <strong>Have fun:</strong> Playing with your cat is an excellent method to enhance your friendship while also giving them with necessary mental and physical stimulation. Enjoy your time together!
+              </p><br>
+            </article>
+            <article class="other__sources">
+              <h3>Additional Resources</h3>
+              <a href="https://www.petfinder.com/cats-and-kittens/behavior/playing/9-fun-ways-to-play-with-your-cat/" target="_blank" rel="noopener">How to Play with Your Cat in 9 Fun Ways</a>
+              <a href="https://youtu.be/M7w8pDCo30M" target="_blank" rel="noopener">The Natural Way To Play with your Cat: Prey = Play</a>
+            </article>
+            <div class="exercise">
+              <button type="button" id="exercise__btn-1">
+                Exercise 1
+              </button>
+            </div>
+          </div>
+         
+          <div class="content__wrapper" id="topic-2">
+            <article class="transcript">
+              <h2>Toys</h2>
+              <p>
+                Playing with your cat is not only fun for both of you but also essential for their physical and mental well-being. Here are some tips and examples on how to play with your cat: <br /><br />
+
+               <strong>Use Interactive Toys:</strong> Choose toys that encourage your cat to engage with you. Wand toys with feathers, strings, or small toys at the end are great for interactive play. Move the toy around to mimic prey, encouraging your cat to pounce and chase. <br /><br />
+
+               <strong>Rotate Toys:</strong> Cats can get bored easily, so it's essential to rotate their toys regularly to keep things interesting. Introduce new toys or bring out old ones that they haven't played with in a while. <br /><br />
+
+               <strong>Let Them Hunt:</strong> Cats are natural hunters, so engage their instincts by hiding toys around the house for them to find. You can also use puzzle toys that dispense treats when they're played with, stimulating their mind while rewarding them for their efforts.<br /><br />
+
+               <strong>Provide Climbing Opportunities:</strong> Cats love to climb and explore vertical spaces. Invest in a cat tree or install shelves where they can climb and perch. Use toys or treats to encourage them to climb and explore their environment.
+              </p>
+            </article>
+            <article class="other__sources">
+              <h3>Additional Resources</h3>
+              <a href="https://youtu.be/X3hkfd7lWdM" target="_blank" rel="noopener">My Cat Reviews The BEST Cat Toys</a>
+              <a href="https://www.wired.com/story/best-cat-toys-litter-boxes-and-supplies/" target="_blank" rel="noopener">Our Favorite Cat Toys, Litter Boxes, and Other Feline Supplies</a>
+            </article>
+            <div class="exercise">
+              <button type="button" id="exercise__btn-2">
+                Exercise 2
+              </button>
+            </div>
+          </div>
+
+          <div class="content__wrapper" id="topic-3">
+            <button type="button" id="exercise__btn-3">...</button>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-1">
+            <h2>Playing</h2>
+            <article class="transcript">
+              <label for='question01'>(1) What type of toys are great for engaging a cat's natural hunting instincts?<br><br>
+                <input type="radio" name="question01" value="Soft-plush-toys"/> Soft plush toys <br>
+                <input type="radio" name="question01" value="Laser-pointers"  class="correct"/> Laser pointers <br>
+                <input type="radio" name="question01" value="Stuffed-mice"/> Stuffed mice <br>
+                <input type="radio" name="question01" value="Rubber-balls"/> Rubber balls <br>
+              </label><br>
+                
+              <label for='question02'>(2) When should you stop playing with your cat?<br><br>
+                <input type="radio" name="question02" value="When-you-get-tired"/> When you get tired <br>
+                <input type="radio" name="question02" value="When-your-cat-gets-tired-or-disinterested" class="correct"/> When your cat gets tired or disinterested <br>
+                <input type="radio" name="question02" value="When-your-cat-scratches-you"/> When your cat scratches you <br>
+                <input type="radio" name="question02" value="When-you're-out-of-toys"/> When you're out of toys <br>
+              </label><br>
+              
+              <label for='question03'>(3) What is an example of an interactive toy for cats?<br><br>
+                <input type="radio" name="question03" value="Puzzle-feeder"/> Puzzle feeder <br>
+                <input type="radio" name="question03" value="Ceramic-bowl"/> Ceramic bowl <br>
+                <input type="radio" name="question03" value="Squeaky-toy"/> Squeaky toy <br>
+                <input type="radio" name="question03" value="Feather-wand" class="correct"/> Feather wand <br>
+              </label><br>
+                
+              <label for='question04'>(4) What is the importance of rotating your cat's toys regularly?<br><br>
+                <input type="radio" name="question04" value="To-confuse-the-cat"/> To confuse the cat <br>
+                <input type="radio" name="question04" value="To-keep-the-toys-clean"/> To keep the toys clean <br>
+                <input type="radio" name="question04" value="To-prevent-boredom" class="correct"/> To prevent boredom <br>
+                <input type="radio" name="question04" value="To-save-money-on-new-toys"/> To save money on new toys <br>
+              </label><br>
+              
+              <label for='question05'>How should you reward your cat during playtime?<br><br>
+                <input type="radio" name="question05" value="with-a-time-out"/> with a time-out <br>
+                <input type="radio" name="question05" value="With-a-scolding"/> With a scolding <br>
+                <input type="radio" name="question05" value="With-treats-or-praise" class="correct"/> With treats or praise <br>
+                <input type="radio" name="question05" value="With-more-playtime"/> With more playtime <br>
+              </label><br>
+              
+              <div class="result__container">
+                <div id="score01" class='result'></div>
+                <div class="progress__meter meter01">
+                  <h2><span class="progress01">0</span>/200</h2>
+                  <p class="progress01__text">Your progress:</p>
+                </div>
+              </div>
+
+              <button class="gradeButton01 gradeBtn" type="button">Show result</button>
+            </article>
+            <div class="course">
+              <button type="button" id="course__btn-1">Back to topic</button>
+            </div>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-2">
+            <h2>Toys</h2>
+            <article class="transcript">
+              <label for='question01'>(1)What type of toys are best for interactive play with your cat?<br><br>
+                <input type="radio" name="question01" value="wand-toys-with-feathers-or-strings" class="correct"/> Wand Toys with feathers or strings <br>
+                <input type="radio" name="question01" value="lego"/> Lego <br>
+                <input type="radio" name="question01" value="small-swallowable-objects"/> Small swallowable objects <br>
+                <input type="radio" name="question01" value="nothing"/> Nothing 
+              </label><br><br>
+                
+              <label for='question02'>(2) Why is it important to rotate your cat's toys regularly?<br><br>
+                <input type="radio" name="question02" value="so-the-ball-keeps-roling"/> So the ball keeps rolling <br>
+                <input type="radio" name="question02" value="to-keep-them-interested-and-prevent-boredom" class="correct"/> To keep them interested and prevent boredom <br>
+                <input type="radio" name="question02" value="so-the-cat-doesn't-run-away"/> So the cat doesn't run away <br>
+                <input type="radio" name="question02" value="so-the-cat-can-look-at-the-ball"/> So the cat can look at the ball 
+              </label><br><br>
+              
+              <label for='question03'>(3) Do puzzle toys that dispense treats stimulate your cat's mind?<br><br>
+                <input type="radio" name="question03" value="true" class="correct"/> True <br>
+                <input type="radio" name="question03" value="false"/> False <br>
+              </label><br>
+                
+              <label for='question04'>(4) Is providing climbing opportunities, like a cat tree or shelves, important for your cat's exploration and exercise?<br><br>
+                <input type="radio" name="question04" value="false"/> False <br>
+                <input type="radio" name="question04" value="true" class="correct"/> True <br>
+              </label><br>
+              
+              <label for='question05'>(5) Do cats enjoy hunting for hidden toys around the house?<br><br>
+                <input type="radio" name="question05" value="true" class="correct"/> True <br>
+                <input type="radio" name="question05" value="false"/> False <br>
+              </label><br>
+
+              <div class="result__container">
+                <div id="score02" class='result'></div>
+                <div class="progress__meter meter02">
+                  <h2><span class="progress02">0</span>/200</h2>
+                  <p class="progress02__text">Your progress:</p>
+                </div>
+              </div>
+
+              <button class="gradeButton02 gradeBtn" type="button">Show result</button>
+            </article>
+            <div class="course">
+              <button type="button" id="course__btn-2">Back to topic</button>
+            </div>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-3">
+            <div id="score03" class='result'></div>
+            <div class="progress__meter meter03">
+              <h2><span class="progress03">...</span></h2>
+              <p class="progress03__text">...</p>
+            </div>
+            <button class="gradeButton03 gradeBtn hidden" type="button">...</button>
+            <div class="course">
+              <button type="button" id="course__btn-3" class="hidden">...</button>
+              <button type="button" class='hidden' id="complete__btn">...</button>
+            </div>
+          </div>
+
+          <div class="content__buttons">
+            <a href="topic01.html"><button type="button">previous</button></a>
+            <a href="topic03.html"><button type="button">next</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="javascript/topics.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

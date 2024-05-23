@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Health</title>
+    <link rel="icon" href="images/logo-no-background.gif"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="ellipsis">
+        <i class="fa-solid fa-ellipsis"></i>
+      </div>
+      <!-- header -->
+      <header>
+        <a href="homePage.html" class="logo__link"><img src="images/logo.webp" alt="logo" class="header__logo" /></a>
+        <nav>
+          <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="homePage.html#about">About</a></li>
+            <li><a href="content.html">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="register.html">Join</a></li>
+          </ul>
+        </nav>
+        <div id="menu__icon">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <nav id="menu__nav">
+        <ul>
+          <li><a href="homePage.html">Home</a></li>
+          <li><a href="homePage.html#about">About</a></li>
+          <li class="active"><a href="content.html">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Join</a></li>
+        </ul>
+      </nav>
+      <section class="course__content">
+        <aside class="aside">
+          <div class="courses">
+            <h2>Courses</h2>
+          </div>
+          <div class="course__link">
+            <a href="topic01.html">Understanding Your Cat</a>
+            <a href="topic02.html">Cat Play</a>
+            <a href="topic03.html">Cat Provisions</a>
+            <a href="topic04.html">Cat-proofed home</a>
+            <a href="topic05.html" class="active">Cat health</a>
+          </div>
+        </aside>
+        <div class="content">
+          <h1 class="content__header">Cat Health</h1>
+          <div class="content__topics">
+            <button type="button" class="topic active" id="topic01Btn">
+              Vet
+            </button>
+            <button type="button" id="topic02Btn" class="hidden">...</button>
+            <button type="button" id="topic03Btn" class="hidden">...</button>
+          </div>
+
+          <div class="content__wrapper" id="topic-1">
+            <article class="transcript">
+              <h2>When to see a Vet</h2>
+              <p>
+                Ensuring the health and well-being of your cat is paramount for
+                their longevity and quality of life. Regular veterinary care and
+                attentive observation are crucial components of maintaining your
+                cat's health. Here's a deeper dive into cat health and when to
+                see a vet.<br></br>
+
+                <strong>Regular Veterinary Check-ups:</strong> Schedule routine
+                veterinary visits for your cat, even if they appear healthy.
+                Annual check-ups allow the vet to assess your cat's overall
+                health, administer vaccinations, and discuss preventive care
+                measures. Follow your veterinarian's recommendations for
+                parasite prevention, such as flea, tick, and heartworm control,
+                as well as routine deworming.<br></br>
+
+                <strong>Monitoring Your Cat's Health:</strong> Keep an eye on
+                your cat's appetite, thirst, urination, and bowel movements.
+                Changes in these behaviors could indicate underlying health
+                problems. Monitor your cat's weight and body condition. Sudden
+                weight loss or gain could be a sign of illness. Regularly
+                inspect your cat's fur, skin, eyes, ears, and mouth for any
+                abnormalities, such as lumps, wounds, discharge, or dental
+                issues.<br></br>
+
+                <strong>Common Signs of Illness in Cats:</strong><br/><br/>
+                Persistent vomiting or diarrhea.<br/><br/>
+                Difficulty breathing or coughing.<br/><br/>
+                Lethargy or weakness.<br/><br/> 
+                Loss of appetite or sudden weight loss.<br/><br/>
+                Excessive thirst or urination.<br/><br/>
+                Changes in litter box habits, such as straining to
+                urinate or blood in the urine.<br/><br/>
+                Persistent sneezing, coughing, or
+                nasal discharge.<br/><br/>
+                Visible signs of pain or discomfort, such as
+                limping or vocalization.
+              </p>
+            </article>
+            <article class="other__sources">
+              <h3>Additional Resourses</h3>
+              <a href="https://youtu.be/gkYMSieV3rI" target="_blank" rel="noopener">The 10 Things Every New Cat Owner Should Know (A Vet's Perspective)</a>
+              <a href="https://www.usatoday.com/story/news/2022/07/25/how-often-do-you-take-cat-vet/10049934002/#:~:text=Signs%20you%20should%20take%20a,Repetitive%20vomiting" target="_blank" rel="noopener">How often do you take a cat to the vet?</a>
+            </article>
+            <div class="exercise">
+              <button type="button" id="exercise__btn-1">Final exercise</button>
+            </div>
+          </div>
+          <div class="content__wrapper hidden" id="topic-2">
+            <button type="button" id="exercise__btn-2">...</button>
+          </div>
+          <div class="content__wrapper hidden" id="topic-3">
+            <button type="button" id="exercise__btn-3">...</button>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-1">
+            <h2>Vet</h2>
+            <article class="transcript">
+              <label for="question01"
+                >(1) What is one crucial reason to schedule routine veterinary visits for your cat?<br /><br />
+                <input
+                  type="radio"
+                  name="question01"
+                  value="To ensure your cat's health even if they appear healthy"
+                  class="correct" />
+                  To ensure your cat's health even if they appear healthy <br />
+                <input type="radio" name="question01" value="20" />  To teach your cat preventive care measures <br />
+                <input type="radio" name="question01" value="30" /> To administer vaccinations only <br />
+                <input type="radio" name="question01" value="40" /> To wait until your cat shows signs of illness before seeing a vet
+                <br /> </label
+              ><br />
+
+              <label for="question02"
+                >(2) Which of the following is NOT listed as a common sign of illness in cats?<br /><br />
+                <input type="radio" name="question02" value="10" /> Persistent vomiting or diarrhea <br />
+                <input
+                  type="radio"
+                  name="question02"
+                  value="Increased appetite and weight gain"
+                  class="correct" />
+                  Increased appetite and weight gain <br />
+                <input type="radio" name="question02" value="30" /> Difficulty breathing or coughing <br />
+                <input type="radio" name="question02" value="40" /> Excessive thirst or urination
+                <br /> </label
+              ><br />
+
+              <label for="question03"
+                >(3) What should you monitor in your cat's health to detect any underlying problems?<br /><br />
+                <input
+                  type="radio"
+                  name="question03"
+                  value="Observe changes in their appetite and thirst"
+                  class="correct" />
+                  Observe changes in their appetite and thirst <br />
+                <input type="radio" name="question03" value="20" /> Only monitor their weight and body condition <br />
+                <input type="radio" name="question03" value="30" /> Monitor their fur and skin irregularities <br />
+                <input type="radio" name="question03" value="40" /> Regularly inspect their ears and mouth
+
+                <br /> </label
+              ><br />
+
+              <label for="question04"
+                >(4) What is one important component of parasite prevention for cats?<br /><br />
+                <input type="radio" name="question04" value="10" /> Frequent bathing <br />
+                <input
+                  type="radio"
+                  name="question04"
+                  value="Regular deworming"
+                  class="correct" />
+                  Regular deworming <br />
+                <input type="radio" name="question04" value="30" />  Daily tooth brushing <br />
+                <input type="radio" name="question04" value="40" /> Monthly nail trimming
+                <br /> </label
+              ><br />
+
+              <label for="question05"
+                >(5) Which of the following is NOT listed as a sign of discomfort or illness in cats?<br /><br />
+                <input
+                  type="radio"
+                  name="question05"
+                  value="Excessive grooming"
+                  class="correct" />
+                  Excessive grooming <br />
+                <input type="radio" name="question05" value="20" /> Lethargy or weakness <br />
+                <input type="radio" name="question05" value="30" /> Changes in litter box habits <br />
+                <input type="radio" name="question05" value="40" /> Persistent sneezing or nasal discharge
+                <br /> </label
+              ><br />
+
+              <div class="result__container">
+                <div id="score01" class="result"></div>
+                <div class="progress__meter meter01">
+                  <h2><span class="progress01">0</span>/100</h2>
+                  <p class="progress01__text">Excellent!</p>
+                </div>
+              </div>
+
+              <button class="gradeButton01 gradeBtn" type="button">
+                show result
+              </button>
+            </article>
+            <div class="course">
+              <button type="button" id="course__btn-1">Back to course</button>
+              <button type="button" id="complete__btn">completed</button>
+            </div>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-2">
+            <div id="score02" class="result"></div>
+            <div class="progress__meter meter02">
+              <h2><span class="progress02">...</span></h2>
+              <p class="progress02__text">...</p>
+            </div>
+            <button class="gradeButton02 gradeBtn hidden" type="button">
+              ...
+            </button>
+            <button type="button" id="course__btn-2" class="hidden">...</button>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-3">
+            <div id="score03" class="result"></div>
+            <div class="progress__meter meter03">
+              <h2><span class="progress03">...</span></h2>
+              <p class="progress03__text">...</p>
+            </div>
+            <button class="gradeButton03 gradeBtn hidden" type="button">
+              ...
+            </button>
+            <button type="button" id="course__btn-3" class="hidden">...</button>
+          </div>
+
+          <div class="complete__wrapper">
+            <h1>Congratulations!🎉</h1>
+            <p>You have completed the course successfully</p>
+            <div class="congrats__image">
+              <img src="images/woman_and_cats.webp" alt="a woman and two cats" />
+            </div>
+            <div class="course">
+              <a href="register.html#feedback"
+                ><button type="button" id="congrats__btn">Feedback</button></a
+              >
+            </div>
+          </div>
+          <div class="content__buttons">
+            <a href="topic04.html" class="previous"
+              ><button type="button">previous</button></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="javascript/topics.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

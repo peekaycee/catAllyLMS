@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Provisions</title>
+    <link rel="icon" href="images/logo-no-background.gif"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="ellipsis">
+        <i class="fa-solid fa-ellipsis"></i>
+      </div>
+      <!-- header -->
+      <header>
+        <a href="homePage.html" class="logo__link"><img src="images/logo.webp" alt="logo" class="header__logo" /></a>
+        <nav>
+          <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="homePage.html#about">About</a></li>
+            <li><a href="content.html">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="register.html">Join</a></li>
+          </ul>
+        </nav>
+        <div id="menu__icon">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <nav id='menu__nav'>
+        <ul>
+          <li><a href="homePage.html">Home</a></li>
+          <li><a href="homePage.html#about">About</a></li>
+          <li class="active"><a href="content.html">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="register.html">Join</a></li>
+        </ul>
+      </nav>
+      <section class="course__content">
+        <aside class="aside">
+          <div class="courses">
+            <h2>Courses</h2>
+          </div>
+          <div class="course__link">
+            <a href="topic01.html">Understanding Your Cat</a>
+            <a href="topic02.html">Feline-Play</a>
+            <a href="topic03.html" class="active">Cat Provisions</a>
+            <a href="topic04.html">Cat-Proofed Home</a>
+            <a href="topic05.html">Cat Health</a>
+          </div>
+        </aside>
+        <div class="content">
+          <h1>Cat Provisions</h1>
+          <div class="content__topics">
+            <button type="button" class='topic active' id="topic01Btn">Cat litter</button>
+            <button type="button" class='topic' id="topic02Btn">Cat food</button>
+            <button type="button" class='topic hidden' id="topic03Btn">...</button>
+          </div>
+
+          <div class="content__wrapper" id="topic-1">
+            <article class="transcript">
+              <h2>Cat Litter</h2>
+              <p>
+                Taking care of a cat involves several provisions to ensure their health, well-being, and happiness. Two critical aspects of cat care are litter boxes and cat food.<br/><br/>
+
+                <strong>Type and Size:</strong> Choose a litter box that suits your cat's size and preferences. Some cats prefer larger boxes, while others may prefer covered or uncovered options.<br/><br/>
+
+                <strong>Number of Boxes:</strong> It's recommended to have one more litter box than the number of cats you have. For example, if you have two cats, provide three litter boxes.<br/><br/>
+
+                <strong>Location:</strong> Place litter boxes in quiet, accessible areas away from their food and water bowls. Cats prefer privacy when using the litter box, so avoid high-traffic areas.<br/><br/>
+
+                <strong>Litter Type:</strong> Experiment with different litter types to see which your cat prefers. Common types include clumping, non-clumping, silica gel, and natural alternatives like recycled paper or pine pellets.<br/><br/>
+
+                <strong>Cleaning Routine:</strong> Scoop the litter box at least once a day to remove waste. Clean the entire box with mild soap and water regularly and replace litter as needed.<br/><br/>
+
+                <strong>Considerations for Multiple Cats:</strong> In households with multiple cats, provide enough litter boxes to prevent territorial disputes and ensure each cat has access to a clean box.
+              </p>
+            </article>
+            <article class="other__sources">
+              <h3>Additional Resources</h3>
+              <a href="https://youtu.be/IXADmQUCr3g" target="_blank" rel="noopener">What TYPE of Cat Litter Should You Buy? A Beginner's Guide</a>
+            </article>
+            <div class="exercise">
+              <button type="button" id="exercise__btn-1">
+                Exercise 1
+              </button>
+            </div>
+          </div>
+         
+          <div class="content__wrapper" id="topic-2">
+            <article class="transcript">
+              <h2>Cat Food</h2>
+              <p>
+                <strong>Nutritional Requirements:</strong> Cats are obligate carnivores, meaning they require a diet rich in animal proteins.
+                 Choose high-quality cat food that meets their nutritional needs, including essential amino acids, vitamins, and minerals. <br /><br />
+
+                <strong>Wet vs. Dry Food: </strong> Both wet and dry cat food options have their advantages. Wet food provides hydration and can be beneficial for cats with urinary tract issues, while dry food is convenient and helps maintain dental health. <br /><br />
+
+                <strong> Feeding Schedule: </strong> Establish a regular feeding schedule and portion sizes based on your cat's age, weight, and activity level. Avoid overfeeding, as obesity can lead to various health problems. <br /><br />
+
+                <strong> Water Access: </strong> Ensure your cat has access to fresh, clean water at all times. Some cats prefer running water, so consider investing in a cat fountain to encourage drinking. <br /><br />
+
+                <strong> Avoid Harmful Foods: </strong> Certain human foods, such as chocolate, onions, garlic, and grapes, can be toxic to cats. Keep these foods out of reach and educate yourself on potential hazards.               
+              </p>
+            </article>
+            <article class="other__sources">
+              <h3>Additional Resources</h3>
+              <a href="https://youtu.be/qAuBCUqQHoY" target="_blank" rel="noopener">11 Human Foods Your Cat Can Eat</a>
+              <a href="https://youtu.be/52SRtzJfX4s" target="_blank" rel="noopener">Dangers of Dry Cat Food</a>
+            </article>
+            <div class="exercise">
+              <button type="button" id="exercise__btn-2">
+                Exercise 2
+              </button>
+            </div>
+          </div>
+
+          <div class="content__wrapper" id="topic-3">
+            <button type="button" id="exercise__btn-3">...</button>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-1">
+            <h2>Cat litter</h2>
+            <article class="transcript">
+              <label for='question01'>(1) What is a recommendation for choosing a litter box for your cat?<br><br>
+                <input type="radio" name="question01" value="Choose-a-box-based-on-color-preferences"/> Choose a box based on color preferences <br>
+                <input type="radio" name="question01" value="Select-a-box-without-considering-the-cat's-size"/> Select a box without considering the cat's size <br>
+                <input type="radio" name="question01" value="Choose-a-box-that-suits-the-cat's-size-and-preferences" class="correct"/> Choose a box that suits the cat's size and preferences <br>
+                <input type="radio" name="question01" value="Pick-a-box-solely-based-on-its-price"/> Pick a box solely based on its price <br>
+              </label><br>
+                
+              <label for='question02'>(2) How many litter boxes are recommended for a household with three cats?<br><br>
+                <input type="radio" name="question02" value="Two-litter-boxes"/> Two litter boxes <br>
+                <input type="radio" name="question02" value="Three-litter-boxes"/> Three litter boxes <br>
+                <input type="radio" name="question02" value="Two-litter-boxes" class="correct"/> Four litter boxes <br>
+                <input type="radio" name="question02" value="Five-litter-boxes"/> Five litter boxes <br>
+              </label><br>
+              
+              <label for='question03'>(3) Where is the ideal location to place litter boxes in your home?<br><br>
+                <input type="radio" name="question03" value="Near-the-cat's-food-and-water-bowls"/> Near the cat's food and water bowls <br>
+                <input type="radio" name="question03" value="In-high-traffic-areas-of-the-house"/> In high-traffic areas of the house <br>
+                <input type="radio" name="question03" value="In-quiet-accessible-areas-away-from-food-and-water" class="correct"/>  In quiet, accessible areas away from food and water <br>
+                <input type="radio" name="question03" value="Outdoors-in-the-backyard"/> Outdoors in the backyard <br>
+              </label><br>
+                
+              <label for='question04'>(4) What is one type of litter that you can use for your cat?<br><br>
+                <input type="radio" name="question04" value="Sand"/> Sand <br>
+                <input type="radio" name="question04" value="Rice"/> Rice <br>
+                <input type="radio" name="question04" value="Clumping" class="correct"/> Clumping <br>
+                <input type="radio" name="question04" value="Wood-chips"/> Wood chips <br>
+              </label><br>
+              
+              <label for='question05'>(5) How often should you scoop the litter box to remove waste?<br><br>
+                <input type="radio" name="question05" value="Once-a-week"/> Once a week <br>
+                <input type="radio" name="question05" value="Twice-a-month"/> Twice a month <br>
+                <input type="radio" name="question05" value="Once-a-month"/> Once a month <br>
+                <input type="radio" name="question05" value="At-least-once-a-day" class="correct"/> At least once a day <br>
+              </label><br>
+              
+              <div class="result__container">
+                <div id="score01" class='result'></div>
+                <div class="progress__meter meter01">
+                  <h2><span class="progress01">0</span>/200</h2>
+                  <p class="progress01__text">Your progress:</p>
+                </div>
+              </div>
+
+              <button class="gradeButton01 gradeBtn" type="button">show result</button>
+            </article>
+            <div class="course">
+              <button type="button" id="course__btn-1">Back to topic</button>
+            </div>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-2">
+            <h2>Cat food</h2>
+            <article class="transcript">
+              <label for='question01'>(1) True or False: Cats are obligate carnivores<br><br>
+                <input type="radio" name="question01" value="true" class="correct"/> True <br>
+                <input type="radio" name="question01" value="false"/> False <br>
+              </label><br>
+                
+              <label for='question02'>(2) What are two types of cat food mentioned in the text?<br><br>
+                <input type="radio" name="question02" value="wet-and-warm"/> Wet and warm <br>
+                <input type="radio" name="question02" value="dry-and-cold"/> Dry and cold <br>
+                <input type="radio" name="question02" value="wet-and-cold"/> Wet and cold <br>
+                <input type="radio" name="question02" value="Wet-and-dry" class="correct"/> Wet and dry 
+              </label><br><br>
+              
+              <label for='question03'>(3) How should you determine your cat's feeding schedule?<br><br>
+                <input type="radio" name="question03" value="based-on-age-weight-and-activity-level" class="correct"/> Based on age, weight and activity level <br>
+                <input type="radio" name="question03" value="based-on-playtime"/> Based on playtime  <br>
+                <input type="radio" name="question03" value="based-on-eye-colour"/> Based on eye colour <br>
+                <input type="radio" name="question03" value="based-on-grooming-time"/> Based on grooming time 
+              </label><br><br>
+                
+              <label for='question04'>(4) True or False: Obesity can lead to various health problems in cats.<br><br>
+                <input type="radio" name="question04" value="false"/> False <br>
+                <input type="radio" name="question04" value="true" class="correct"/> True 
+              </label><br><br>
+              
+              <label for='question05'>(5) Name one food item that is toxic to cats according to the text.<br><br>
+                <input type="radio" name="question05" value="chocolate" class="correct"/> Chocolate <br>
+                <input type="radio" name="question05" value="bread"/> Bread <br>
+                <input type="radio" name="question05" value="eggs"/> Eggs <br>
+                <input type="radio" name="question05" value="chicken"/> Chicken 
+              </label><br><br>
+
+              <div class="result__container">
+                <div id="score02" class='result'></div>
+                <div class="progress__meter meter02">
+                  <h2><span class="progress02">0</span>/200</h2>
+                  <p class="progress02__text"> Your progress: </p>
+                </div>
+              </div>
+
+              <button class="gradeButton02 gradeBtn" type="button">Show result</button>
+            </article>
+            <div class="course">
+              <button type="button" id="course__btn-2">Back to topic</button>
+            </div>
+          </div>
+
+          <div class="exercise__wrapper" id="exercise-3">
+            <div id="score03" class='result'></div>
+            <div class="progress__meter meter03">
+              <h2><span class="progress03">...</span></h2>
+              <p class="progress03__text">...</p>
+            </div>
+            <button class="gradeButton03 gradeBtn hidden" type="button">...</button>
+            <div class="course">
+              <button type="button" id="course__btn-3" class="hidden">...</button>
+              <button type="button" class='hidden' id="complete__btn">...</button>
+            </div>
+          </div>
+
+          <div class="content__buttons">
+            <a href="topic02.html"><button type="button">previous</button></a>
+            <a href="topic04.html"><button type="button">next</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="javascript/topics.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
